@@ -1,0 +1,99 @@
+html{
+	scroll-behavior: smooth;
+}
+#second{
+	width: 100%;
+	height: 400px;
+}
+
+section#homepage{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	color: white;
+	padding-bottom: 5%;
+	background-image: url("bgn1.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	justify-content: center;
+	background-size: cover;
+	background-color: #ff66ff;
+	align-items: center;
+	text-align: center;
+}
+#intro img{
+	display: inherit;
+	padding: 1%;
+	margin: 1%;
+}
+#intro nav {
+    display: inline;
+    
+    width: 100%;
+    padding: 1%;
+    margin: 1%;
+    margin-top: 0;
+}
+
+
+#intro img#hello{
+	display: inline-block;
+	width: 0.06rem;
+	margin-top: 150px;
+	padding: 0;
+	border-radius: 50%;
+	min-width: 180px;
+	border:2px solid #66b2ff;
+	margin-bottom: 40px;
+}
+
+
+#intro p{
+	display: inline-block;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+#home1 a{
+  transition: transform .2s;
+  border-radius: 2%;
+  padding: 1%;
+  margin: 1%;
+  
+  }
+ #home1 a img{
+  background-color: white;
+
+ }
+#home1 a img:hover{
+  -webkit-transform: scale(1.5);
+  width: 50;
+  height: 50;
+}
+#firefly{
+  position: absolute;
+  max-height: 450px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 770px){
+div#intro{
+	display: inline-block;
+	width: 50%;
+	padding: 2%;
+	text-align: center;
+	align-content: center;
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+#firefly{
+	max-height: 500px;
+}
+#intro img#hello{
+	min-width: 220px;
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+}

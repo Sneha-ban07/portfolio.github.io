@@ -1,0 +1,159 @@
+#hola{
+	width: 100%;
+	height: 500px;
+}
+
+section#second{
+	background-image: url("compp.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	color: white;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+#works{
+	display: inline-block;
+	padding: 2%;
+	margin: 2%;
+	width: 80%;
+}
+.web-dev, .app-dev, .graphics{
+	padding: 2%;
+	margin: 1%;
+	margin-bottom: 2%;
+	border:2px solid #66b2ff;
+
+	
+}
+#works h3{
+	font-variant-caps: all-small-caps;
+	font-size: 1.3rem;
+}
+#works h2,#progress h2{
+	display: inline-block;
+	padding: 1.4%;
+	font-size: 2rem;
+}
+#progress{
+	display: inline-block;
+	width: 70%;
+}
+#progress h2{
+	align-self: center;
+	margin-bottom: 2%;
+}
+
+
+
+/*==========Skill Bar===============*/
+.container {
+	display: inline-block;
+	height: auto;
+	min-height: 300px;
+	max-width: 100%;
+  margin: 5% auto;
+}
+
+.progress-bar {
+	margin: 20px 0 10px;
+	background-color: transparent;
+	overflow: hidden;
+	/*padding-left:20px;
+  padding-right: 25px; /* Separate bars from container */
+}
+
+.progress-title-holder {
+	padding-bottom: 7px;
+	position: relative;
+	margin: 5px 0;
+	font-size: 1.2em;
+	line-height: 10px;
+	font-weight: 300;
+}
+
+.progress-title {
+	z-index: 100;
+	font-weight: bold;
+}
+
+.progress-number-wrapper {
+	width: 100%;
+	z-index: 10;
+}
+
+.progress-number-mark {
+	margin-bottom: 4px;
+	border-radius: 3px;
+	background-color: #00d2ff;
+	padding: 0 8px;
+	position: absolute;
+	bottom: 0;
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.progress-number-wrapper,
+.progress-number-mark {
+	font-family: Open Sans, sans-serif;
+	font-size: 11px;
+	line-height: 24px;
+	height: 24px;
+	letter-spacing: 0px;
+	font-weight: 600;
+	font-style: normal;
+	text-transform: none;
+	color: #ffffff;
+}
+
+.down-arrow {
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 3px solid #00d2ff;
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.progress-content-outter {
+	height: 12px;
+	background-color: #E1E1E0;
+}
+
+.progress-content {
+	height: 21px;
+	background-color: #00d2ff;
+	width: 0%;
+	/* Initial value */
+}
+@media screen and (min-width: 770px){
+	#progress{
+		width: 50%;
+	}
+}
+@media screen and (min-width: 1100px){
+	#works{
+		width: 40%;
+		float: left;
+		margin-right: 0;
+		margin-left: 5%;
+	}
+ #progress{
+	width: 35%;
+	float: right;
+	padding-top: 2%;
+	margin-right: 9%;
+	margin-left: 0;
+}
+}
