@@ -21,6 +21,12 @@
   margin-bottom: 8%;
   margin-top: 8%;
 }
+ul.contact-list {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 3%;
+}
+
 .full h3{
   font-size: 2rem;
   display:block;
